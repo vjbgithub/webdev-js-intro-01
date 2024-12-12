@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Introduction to JS: Variables</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/" class="link">Concept</a></li>
+                <li class="nav-item"><a href="./assignment.html" class="link">Assignment</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        
+        <section class="concept">
+            <h2 class="title">Concept: Variables</h2>
+            <p class="definition">
+                What are variables? Simply put, variables are a way for us to store information in memory. All we have to do is declare the variable using the <code class="inline-code">const</code> and <code class="inline-code">let</code> keywords. There is also a <code class="inline-code">var</code> keyword, but as Javascript evolved, <code class="inline-code">const</code> and <code class="inline-code">let</code> were introduced to address scoping issues that <code class="inline-code">var</code> didn't.
+            </p>
+
+            <h3 class="sub-title">const</h3>
+            <p class="definition"><code class="inline-code">const</code> is short for <strong>constant</strong>. If you think about it for a moment, it makes sense that you would use <code class="inline-code">const</code> to declare variables that can't be reassigned another value once it has already been declared. Consider the following block of code:</p>
+
+<code class="block-code">const one = 1;</code>
+
+            <p class="definition">This makes complete sense because one is always going to be one!</p>
+
+            <h3 class="sub-title">let</h3>
+            <p class="definition"><code class="inline-code">let</code> allows us to declare variables that can be reassigned. Consider the following code:</p>
+
+<code class="block-code">let bestFriend = "Joe";</code>
+
+            <p class="definition">For now, Joe is your best friend. Unfortunately, Joe moved away and you meet your new best friend, Susan. We should reflect that change in our code. Using <code class="inline-code">let</code>, we can reassign the new best friend's name like this:</p>
+
+<code class="block-code">bestFriend = "Susan";</code>
+
+            <p class="definition">
+                Note that we did not use <code class="inline-code">let</code> in the example above. This is because you only have to declare the variable once. Once a variable is declared, we can reference it by using just the variable's name.
+            </p>
+
+            <h3 class="sub-title">Experiment Time</h3>
+            
+            <p class="definition">Before this experiment, I want to point out that the values assigned to mutables variables in the examples are called strings. A string is a <strong>data type</strong> that contains a single character or sequence of characters wrapped inside parentheses. We will discuss data types in the next assignment. You will only use strings in this assignment.</p>
+            
+            <p class="definition">Open <code class="inline-code">index.js</code> and try the following:</p>
+            
+            <ul class="exp-list">
+                <li class="exp">Create some <code class="inline-code">const</code> variables. Try reassigning a new value to the one of them and see what the console logs out.</li>
+                <li class="exp">Create some <code class="inline-code">let</code> variables. Like above, give them meaningful names and reassign values to them. Log them to the console and observe the results.</li>
+                <li class="exp">Google the errors that may appear in your console. If it is unclear, write them down so we can discuss them in class.</li>
+            </ul>
+
+            <p class="definition">Once you are done experimenting, comment out your code using a forward slash followed by an asterisk and end the comment with an asterisk followed by a forward slash. Here is an example of what this would look like:</p>
+
+
+
+<code class="block-code">/*
+
+const one = 1;
+console.log(one);
+
+let bestFriend = "Joe";
+console.log(bestFriend);
+
+bestFriend = "Susan";
+console.log(bestFriend);
+
+*/
+</code>
+
+            <p class="definition">
+                You can also comment out a <strong>single</strong> line of code using two forward slashes. If you need to comment large chunks of code, use the above. If you need to comment out a line or two, use forward slashes.
+            </p>
+        </section>
+
+        
+    </main>
+
+    <footer>
+    </footer>
+
+    <!-- include the script at the end of the body -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
