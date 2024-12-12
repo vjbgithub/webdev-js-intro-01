@@ -3,7 +3,7 @@
 ## Overview
 This is the beginning of a series of assignments that will cover core JavaScript concepts. Each part will include a short conceptual lesson and an exercise associated with it. You will see code that may look unfamiliar to you. This is intentional because when it becomes a focused lesson, you will have seen it before and the comments related to it.
 
-In this assignment, we will be covering creating variables in JavaScript. You will use the string data type in the assignment.
+In this assignment, we will cover creating variables in JavaScript. You will use the string data type in the assignment. More on data types in the next assignment.
 
 ## Instructions
 
