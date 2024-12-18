@@ -17,7 +17,9 @@ Before you begin, ensure you have the following installed:
 
 ### Cloning the Repository
 
-Follow these steps to fork and clone the repository:
+Follow these step
+
+s to fork and clone the repository:
 
 1. Open your terminal or Git Bash.
 2. Navigate to the directory where you want to store the project.
@@ -32,20 +34,20 @@ To view the project locally, you can either open the project files in your code 
 
 #### Part 1.
 
-- [ ] View the site with Live Preview.
-- [ ] Read the concept content served from `index.html`.
-- [ ] Do the experiment section inside `index.js`.
-- [ ] When finished with experimenting, comment out everything in `index.js`. You can use these as references for future project/assignments.
+- [X] View the site with Live Preview.
+- [X] Read the concept content served from `index.html`.
+- [X] Do the experiment section inside `index.js`.
+- [X] When finished with experimenting, comment out everything in `index.js`. You can use these as references for future project/assignments.
 
 #### Part 2
 
-- [ ] Navigate to the Assignment Page
-- [ ] Read the assignment overview
-- [ ] In `assignment.js`:
-    - [ ] Create a variable named `book` that cannot be reassigned. Set the value to your favorite book.
-    - [ ] Create a variable named `activity` that can be reassigned. Set the value to your favorite activity.
-    - [ ] Update the function `updateActivitySentence()`.
-    - [ ] Update the function `render()`.
+- [x] Navigate to the Assignment Page
+- [x] Read the assignment overview
+- [x] In `assignment.js`:
+    - [x] Create a variable named `book` that cannot be reassigned. Set the value to your favorite book.
+    - [X] Create a variable named `activity` that can be reassigned. Set the value to your favorite activity.
+    - [X] Update the function `updateActivitySentence()`.
+    - [x]- the function `render()`.
 
 
 ### Tips
